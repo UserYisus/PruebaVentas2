@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Pagina</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <meta name="theme-color" content="#2091F9">
+
+    <meta name="title" content="Aprende CSS desde cero">
+    <meta name="description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://alexcgdesign.github.io">
+    <meta property="og:title" content="Aprende CSS desde cero">
+    <meta property="og:description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+    <meta property="og:image" content="https://alexcgdesign.github.io/images/css.jpg">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.jordanalex.com/">
+    <meta property="twitter:title" content="Aprende CSS desde cero">
+    <meta property="twitter:description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+    <meta property="twitter:image" content="https://alexcgdesign.github.io/images/css.jpg">
+</head>
+
+<body>
+
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Bienes Raíces, Costa Rica.</h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#Uno" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Acerca de</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#Contacto" class="nav__links">Contacto</a>
+                </li>
+                 <li class="nav__items">
+                    <a href="#" class="nav__links">Instagram</a>
+                </li> 
+
+                <img src="./images/close.svg" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img">
+            </div>
+        </nav>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">Venta de propiedades en Costa Rica.</h1>
+            
+            <p class="hero__paragraph">Bienvenido al lugar donde encontrarás cada uno  de los terrenos que quieres para
+                disfrutar tu vida en Costa Rica.</p>
+            <a href="#" class="cta">¡Vive ahora!</a>
+        </section>
+    </header>
+
+    <main>
+        <section class="container about">
+            <a name="Uno" id="Uno"></a>
+            <h2 class="subtitle">¿En qué región quieres comprar?</h2>
+            <p class="about__paragraph">Toda la información necesaria para que adquieras tu terreno en cualquier región de Costa Rica</p>
+
+            <div class="about__main">
+                <article class="about__icons">
+                    <a href="zonaAzar.html" title="info propiedades">
+                        <img src="./images/dado.svg"class="about__icon">
+                    </a> 
+                    <h3 class="about__title">Al azar.</h3>
+                    <p class="about__paragrah">Observa todas las propiedades disponibles y deja que tu instinto te lleve hasta una de ellas.</p>
+                </article>
+
+                <article class="about__icons">
+                    <a href="zonaUrbana.html" title="info propiedades">
+                        <img src="./images/edificios.svg"class="about__icon">
+                    </a>
+                    
+                    <h3 class="about__title">Ciudad o zona urbana.</h3>
+                    <p class="about__paragrah">Observa específicamente las zonas urbanas que te podrían interesar.</p>
+                </article>
+
+                <article class="about__icons">
+                    <a href="zonaRural.html" title="info propiedades">
+                        <img src="./images/rural.svg"class="about__icon">
+                    </a> 
+                    <h3 class="about__title">Zona rural o campo.</h3>
+                    <p class="about__paragrah">Observa específicamente las zonas rurales, campestres o costeras que te podrían interesar.</p>
+              
+                    
+                
+                </article>
+               
+
+            </div>
+           
+
+        </section>
+
+        
+
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledege__texts">
+                    <h2 class="subtitle">Sueña con dónde te gustaría vivir y hazlo realidad con nuestras propiedades.</h2>
+                    <p class="knowledge__paragraph">La vida es un gran pequeño momento que se moldea con muchas acciones.
+                        Piensa: ¿dónde te ves en 10 años? ¿Qué estilo de vida quieres? ¿Estás haciendo lo correcto para vivir como te mereces?
+                        Contáctanos y adquiere tu propiedad, dale forma y vida a tu sueño.
+                
+                    </p>
+                    <a href="#" class="cta">Vista superior.</a>
+                </div>
+
+                <figure class="knowledge__picture">
+                    <img src="./images/casa_montaña.png" class="knowledge__img">
+                </figure>
+            </div>
+        </section>
+
+        <!-- <section class="price container">
+            <h2 class="subtitle">Obten el plan perfecto para aprender</h2>
+
+            <div class="price__table">
+                <div class="price__element">
+                    <p class="price__name">Flexbox</p>
+                    <h3 class="price__price">Free</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Flexbox</p>
+                        <p class="price__features">Layouts</p>
+                        <p class="price__features">Responsive</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Empieza ahora</a>
+                </div>
+
+
+                <div class="price__element price__element--best">
+                    <p class="price__name">Grid</p>
+                    <h3 class="price__price">$30/mes</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Grid</p>
+                        <p class="price__features">Implicit Grid</p>
+                        <p class="price__features">Responsive</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Empieza ahora</a>
+                </div>
+
+
+                <div class="price__element">
+                    <p class="price__name">Animaciones</p>
+                    <h3 class="price__price">$40/mes</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Animation</p>
+                        <p class="price__features">Transition</p>
+                        <p class="price__features">Render Website</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Empieza ahora</a>
+                </div>
+
+
+            </div>
+        </section> Aquí puedes escribir tu comentario -->
+
+        <section class="testimony">
+            <div class="testimony__container container">
+                <img src="./images/leftarrow.svg" class="testimony__arrow" id="before">
+
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle"> San José <span class="testimony__course"> Capital.</span></h2>
+                        <p class="testimony__review">Capital de Costa Rica. Posee zonas antiguas y otras recientes en las que
+                            convergen todas las etnias y culturas. 
+                        </p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/sanJoseCR1.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Alajuela <span class="testimony__course">Provincia.</span></h2>
+                        <p class="testimony__review">Tiene lugares frescos, zonas calientes. Su variedad de microclimas la hacen ideal para disfrutar
+                            de sus diferencias. Cerca de la capital, zonas urbanas y algunos parques nacionales.!</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/alajuela5.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Puntarenas <span class="testimony__course">Provincia.</span></h2>
+                        <p class="testimony__review"> Lugar cercano a la capital con playas hermosas.
+                        </p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/playa2.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="4">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Limón <span class="testimony__course">Provincia.</span></h2>
+                        <p class="testimony__review">Cuna de las raíces afrodescendientes costarricenses. Lugar caluroso y húmedo
+                            reconocido por sus playas y su gente. Hermosos y paradisíacos lugares.
+                        </p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/limon4.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+
+                <img src="./images/rightarrow.svg" class="testimony__arrow" id="next">
+            </div>
+        </section>
+
+        <!-- <section class="questions container">
+            <h2 class="subtitle">Preguntas frecuentes</h2>
+            <p class="questions__paragraph">A continuación se recopilan algunas de las principales
+                preguntas que se realizan a lo largo de las diferentes etapas de compra y los pasos por seguir.</p>
+
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Qué es Bienes Raíces Costa Rica YFE?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Es un medio para que las personas que gusten realicen negocios
+                            con terrenos a nivel costarricense, con propietarios reales y con los que podrás efectuar
+                            tratos seguros para, finalmente, hacer realidad tus sueños de vivir en tranquilidad y armonía
+                            con tu entorno.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Qué aprenderé en este curso?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
+                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
+                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
+                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
+                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
+                            quam atque?</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Qué es CSS GRID?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
+                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
+                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
+                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
+                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
+                            quam atque?</p>
+                    </div>
+                </article>
+            </section>
+
+            <section class="questions__offer">
+                <h2 class="subtitle">¿Estas listo para aprender CSS?</h2>
+                <p class="questions__copy">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ratione
+                    architecto magnam, officiis ex porro vero est voluptates quaerat quibusdam illo veniam reprehenderit
+                    eius atque tempora iure ab non autem.</p>
+                <a href="#" class="cta">Aprende ahora</a>
+            </section>
+        </section>
+    </main> -->
+
+    <footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <a name="Contacto" id="Contacto"></a>
+                <h2 class="footer__title">Propiedades a su medida y a su gusto.</h2>
+
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Acerca de</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Contacto</a>
+                        <p class="about__paragrah">87658227</p>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Instagram</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
+                <h2 class="footer__newsletter">Contacta al vendedor: </h2>
+                <div class="footer__inputs">
+                    <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
+                    <input type="submit" value="Registrate" class="footer__submit">
+                </div>
+            </form>
+        </section>
+
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="#" class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/twitter.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/youtube.svg" class="footer__img"></a>
+            </div>
+
+            <h3 class="footer__copyright">Contáctanos: &copy; raicescostarica@gmail.com </h3>
+
+            <a class="dropdown-item" href="Prueba de página lentes-1.html">Propiedad en San Ramón de Alajuela</a>
+
+            <h3 class="footer__copyright">Derechos reservados &copy; Ing. Yadimbert Fuentes Elizondo</h3>
+        </section>
+    </footer>
+
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>
